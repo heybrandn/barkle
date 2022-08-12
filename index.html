@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>barkle by brandn</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="top">
+            <h1 class="header text">barkle</h1>
+        </div>
+        <div class="diceDiv">
+            <div class="dice">
+                <h1 class="text" id="die1">_</h1>
+                <button class="btn" id="lock1" onclick="lock1()">Lock</button>
+            </div>
+            <div class="dice">
+                <h1 class="text" id="die2">_</h1>
+                <button class="btn" id="lock2" onclick="lock2()">Lock</button>
+            </div>
+            <div class="dice">
+                <h1 class="text" id="die3">_</h1>
+                <button class="btn" id="lock3" onclick="lock3()">Lock</button>
+            </div>
+            <div class="dice">
+                <h1 class="text" id="die4">_</h1>
+                <button class="btn" id="lock4" onclick="lock4()">Lock</button>
+            </div>
+            <div class="dice">
+                <h1 class="text" id="die5">_</h1>
+                <button class="btn" id="lock5" onclick="lock5()">Lock</button>
+            </div>
+            <div class="dice">
+                <h1 class="text" id="die6">_</h1>
+                <button class="btn" id="lock6" onclick="lock6()">Lock</button>
+            </div>
+        </div>
+        <div class="btmRoll">
+            <button class="btnRoll" id="roll" onclick="rollAll()">Roll All</button>
+            <button class="btnRoll" id="turn" onclick="endTurn()">End Turn</button>
+        </div>
+        <div class="playerScores">
+            <h2 class="text" id="pOne">Player One Score: </h2>
+            <h2 class="text" id="pTwo">Player Two Score: </h2>
+        </div>
+        <div class="winText">
+            <h1 class="text" id="winText"></h1>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
